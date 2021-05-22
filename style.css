@@ -1,6 +1,6 @@
 figure {display: inline-block;}
 
-body {background-image: url(/images/disney.png); background-size: cover;}
+body {background-image: url(images/disney.png); background-size: cover;}
 
 
 p {text-align: center; font-size: 30px; color:slateblue; font-weight: bold;}

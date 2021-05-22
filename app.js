@@ -21,7 +21,7 @@ function answer1() {
 
                
                 function clickMe () { 
-                    var yourPrincess = ["snowwhite.html", "ariel.html", "Cinderella.html", "mulan.html", ];
+                    var yourPrincess = ["snowwhite.html", "Ariel.html", "Cinderella.html", "mulan.html", ];
                   var urldr= yourPrincess [Math.floor (Math.random() * yourPrincess.length)];
                   document.location = urldr;
                 }
