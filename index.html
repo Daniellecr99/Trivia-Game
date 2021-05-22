@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" href="style.css" rel="stylesheet">
+
+    <script src="app.js">
+
+    </script>
+    <title>Trivia Game</title>
+</head>
+
+<body>
+
+    <div class="css"> 
+        <p>Who was Walt Disney's favorite princess?</p>
+        <input type="radio" name="favorite" id="ariel" value="ariel">
+        <figure><img src="images/little-mermaid.jpg" width="200px">
+        </figure>
+        <input type="radio" name="favorite" id="mulan" value="mulan">
+        <figure><img src="images/mulan.jpg" width="200px"></figure>
+
+        <input type="radio" name="favorite" id="cindrella" value="cindrella">
+        <figure><img src="images/cinderella.jpg" width="200px">
+            <figcaption id="favorite"></figcaption>
+        </figure>
+
+        <input type="radio" name="favorite" id="Aurora" value="Aurora">
+        <figure> <img src="images/Aurora.jpg" width="200px">
+        </figure>
+        <br>
+        <button onclick="answer1 ()">Show me the answer!</button>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="css">
+        <p>Which of the following princesses is left handed?</p>
+        <input type="radio" name="left" id="poca2" value="poca2">
+        <figure><img src="images/pocahontas.jpg" width="200px">
+        </figure>
+
+        <input type="radio" name="left" id="tiana2" value="tiana2">
+        <figure><img src="images/Tiana.jpg" width="200px">
+            <figcaption id="left"></figcaption>
+        </figure>
+
+        <input type="radio" name="left" id="belle2" value="belle2">
+        <figure><img src="images/belle.jpg" width="200px">
+        </figure>
+        <input type="radio" name="left" id="snow2" value="snow2">
+        <figure><img src="images/snow-white.jpg" width="200px">
+        </figure>
+        <br>
+        <button onclick="answer2 ()">Show me the answer!</button>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="css">
+        <p>Which of the following princesses is based on a real person?</p>
+
+        <input type="radio" name="love" id="jasmine3" value="jasmine3">
+        <figure><img src="images/Jasmine.jpg" width="200px"></figure>
+
+        <input type="radio" name="love" id="Aurora3" value="Aurora3">
+        <figure> <img src="images/Aurora.jpg" width="200px"></figure>
+
+        <input type="radio" name="favorite" id="mulan3" value="mulan3">
+        <figure><img src="images/mulan.jpg" width="200px"></figure>
+
+        <input type="radio" name="love" id="poca3" value="poca3">
+        <figure><img src="images/pocahontas.jpg" width="200px">
+            <figcaption id="love"></figcaption>
+        </figure>
+        <br>
+        <button onclick="answer3 ()">Show me the answer!</button>
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <div class="css"> 
+<p>Who was the very first princess?</p>
+
+<input type="radio" name="first" id="cindrella4" value="cindrella4">
+<figure><img src="images/cinderella.jpg" width="200px"></figure>
+
+<input type="radio" name="first" id="snow4" value="snow4">
+        <figure><img src="images/snow-white.jpg" width="200px">
+            <figcaption id="first"></figcaption>
+        </figure>
+    
+
+    <input type="radio" name="first" id="belle4" value="belle4">
+        <figure><img src="images/belle.jpg" width="200px">
+        </figure>
+
+        <input type="radio" name="first" id="Anastasia4" value="Anastasia4">
+        <figure><img src="images/Anastasia.jpg" width="200px"></figure>
+        <br>
+        <button onclick="answer4 ()">Show me the answer!</button>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+<div class="last">
+    <h2>Find out which princess you are!</h2>
+    <img src="images/all.webp">
+    <br>
+    <button id="generator" onclick="clickMe ()"> Show me my Princess</button>
+</div>
+</body>
+
+</html>

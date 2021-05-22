@@ -1,0 +1,12 @@
+figure {display: inline-block;}
+
+body {background-image: url(/images/disney.png); background-size: cover;}
+
+
+p {text-align: center; font-size: 30px; color:slateblue; font-weight: bold;}
+
+.css  {text-align: center; margin: 0 auto;}
+
+button {margin-top: 25px; width: 200px; height: 50px; background-color:bisque;}
+
+.last {text-align: center; font-size: 30px; color:slateblue; font-weight: bold;}
